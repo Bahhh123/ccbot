@@ -1,12 +1,12 @@
 <?php
 
-////////////////=============[Made with ❤️ by AndryMata]===============////////////////
+////////////////=============[Author ❤️ by Rahmad Tabah S]===============////////////////
 
 ///https://api.telegram.org/bot<token>/setwebhook?url=<url>
 
 
 
-$botToken = "1847033833:AAEB-t6x-VRv4b4cM13bBqTtCK5dSfXD9Pc"; // Enter ur bot token
+$botToken = "1966537506:AAEHxqLIQas9RYvQW0vi8YhCSnpdiQ0cmRE"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -425,7 +425,7 @@ $url = $GLOBALS[website]."/sendMessage?chat_id=".$chatId."&text=".$message."&rep
 file_get_contents($url);      
 }
 
-////////////////=============[Andry Mata]===============////////////////
+////////////////=============[Rahmad Tabah S]===============////////////////
 ////////==========[Used api raw bot of @Zeltraxrockzzz]============////////
 
 ?>
